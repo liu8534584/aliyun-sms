@@ -1,0 +1,17 @@
+{
+    "name": "yifei/aliyun-sms",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liuda"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.*"
+    }
+}
