@@ -1,6 +1,9 @@
 {
     "name": "yifei/aliyun-sms",
+    "description": "AliYun sms SDK for PHP",
+    "homepage": "https://www.aliyun.com",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "AliyunMNS\\": "src/"
@@ -13,5 +16,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "6.*"
-    }
+    },
+    "minimum-stability": "stable",
+    "version": "1.0.0"
 }
